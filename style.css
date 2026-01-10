@@ -78,6 +78,9 @@ body{
     padding-bottom: 40px;
     text-align: center;
 }
+.icon {
+  border-radius: 50%;
+}
 .card-section{
     width: 300px;
     padding: 10px;
