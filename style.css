@@ -3,8 +3,11 @@ body{
     width: 100%;
     margin-left: 0px;
     font-family: Arial, Helvetica, sans-serif;
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
 }
-.topnav{
+.topnav {
     display: flex;
     text-align: center;
     text-decoration: none;
@@ -24,7 +27,7 @@ body{
     padding: 15px;
     border-radius: 8px;
     position: absolute;
-    right: 100px;
+    right: 200px;
 }
 .bg-img{
     width: 100%;
@@ -69,4 +72,75 @@ body{
     border: 1px solid white;
     padding: 15px;
     border-radius: 8px;
+}
+.notes {
+    padding-top: 20px;
+    padding-bottom: 40px;
+    text-align: center;
+}
+.card-section{
+    width: 300px;
+    padding: 10px;
+}
+.card-container {
+    background-color: aliceblue;
+}
+.card img{
+    background-color: orangered;
+}
+.card-flex{
+    display: flex;
+    text-align: center;
+}
+.card{
+    padding: 24px 24px 24px 24px;
+    border-radius: 10px;
+}
+.list {
+    display: flex;
+}
+.middle-section {
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+.solution-image {
+    height: 400px;
+}
+.solution-right {
+    margin-left: 40px;
+}
+.clr{
+    color: green;
+}
+.in{
+    margin: 10px;
+}
+.background{
+    background: rgba(247, 246, 242, 1);
+    padding: 40px 40px 40px 40px;
+    text-align: center;
+    margin: 80px;
+}
+.end{
+    background-color:var(--Style, rgba(0, 25, 49, 1));
+    height: 200px;
+}
+.font{
+    color:white;
+    padding: 10px;
+}
+.something{
+    color: white;
+    text-align: center;
+    padding-top: 30px;
+}
+.row-flex{
+    display: flex;
+    height: 40px;
+    padding: 35px;
+}
+.social-media {
+    position: absolute;
+    right: 200px;
 }
